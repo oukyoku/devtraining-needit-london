@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Requqest for" max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Fred Luddy" sequence="0" value="fred luddy"/>
+                <element inactive_on_update="false" label="fendi" sequence="1" value="fendi"/>
+                <element inactive_on_update="false" label="NNNNN" sequence="2" value="nnnnn"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Request type" max_length="40" name="u_choice_2" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Facilitles" sequence="0" value="facilitles"/>
+                <element inactive_on_update="false" label="Mail" sequence="1" value="mail"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="What needed" max_length="40" name="u_choice_3" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Food" sequence="0" value="food"/>
+                <element inactive_on_update="false" label="Water" sequence="1" value="water"/>
+                <element inactive_on_update="false" label="Pen" sequence="2" value="pen"/>
+            </choice>
+        </element>
+    </element>
+</database>
