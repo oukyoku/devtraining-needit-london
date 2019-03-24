@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="label" max_length="40" name="option" type="collection">
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Incidents" max_length="1024" name="x_58872_needit_u_glide_list_1" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Problem Tasks" max_length="1024" name="x_58872_needit_u_glide_list_2" type="glide_list"/>
+    </element>
+</database>
